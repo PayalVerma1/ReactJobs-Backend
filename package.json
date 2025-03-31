@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.13.1",
+    "nodemon": "^3.1.9"
+  },
+  "name": "react-jobs-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PayalVerma1/ReactJobs-Backend.git"
+  },
+  "author": "Payal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PayalVerma1/ReactJobs-Backend/issues"
+  },
+  "homepage": "https://github.com/PayalVerma1/ReactJobs-Backend#readme",
+  "description": ""
+}
