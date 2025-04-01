@@ -1,7 +1,7 @@
 const express = require("express");
 const AddJobs = require("../models/AddJobs");
 const Router = express.Router();
-Router.post("/", async (req, res) => {
+Router.post("/add", async (req, res) => {
   try {
     const {
       type,

@@ -7,6 +7,9 @@ connectdb();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use("/", (req, res) => {
+  res.send("Hello World! This is the Job Portal API.");
+});
 app.use("/addjobs", addJobs);
 app.use("/getjobs",GetJob);
 app.listen(5000, () => {
