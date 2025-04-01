@@ -11,7 +11,7 @@ app.use("/", (req, res) => {
   res.send("Hello World! This is the Job Portal API.");
 });
 app.use("/addjobs", addJobs);
-app.use("/getjobs",GetJob);
+app.use("/",GetJob);
 app.listen(5000, () => {
   console.log("Server is running on port 5000");
 });
