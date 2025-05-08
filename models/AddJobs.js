@@ -41,12 +41,14 @@ const AddJobsSchema = new Schema({
         type: String,
         required: true,
         trim: true,
+        unique: true,
         match: [/.+@.+\..+/, 'Please enter a valid email address']
     },
     contact_phone: {
         type: String,
         required: true,
         trim: true,
+        unique: true,
         match: [/^\+?\d{10,15}$/, 'Please enter a valid phone number']
     },
 });
