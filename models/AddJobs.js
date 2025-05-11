@@ -5,7 +5,7 @@ const AddJobsSchema = new Schema({
     type: {
         type: String,
         required: true,
-        enum: ['Full Time', 'Part Time', 'Remote', 'Internship'],
+        enum: ['Full-Time', 'Part-Time', 'Remote', 'Internship'],
     },
     title: {
         type: String,
@@ -20,7 +20,7 @@ const AddJobsSchema = new Schema({
     salary: {
         type: String,
         required: true,
-        enum: ['Under $50k', '$50k-$60k', '$60k-$70k', '$70k-$80k', '$80k-$90k', '$90k-$100k', '$100k-$125k', '$125k-$150k', '$150k-$175k', '$175k-$200k', 'Over $200k']
+        enum: ['Under $50K', '$50K - $60K', '$60K - $70K', '$70K - $80K', '$80K - $90K', '$90K - $100K', '$100K - $125K', '$125K - $150K', '$150K - $175K', '$175K - $200K', 'Over $200K']
     },
     location: {
         type: String,
